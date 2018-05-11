@@ -1,0 +1,1 @@
+last <- function(x,n=1) { tail(x, n = n) }

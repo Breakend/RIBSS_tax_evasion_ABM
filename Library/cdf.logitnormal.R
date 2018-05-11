@@ -1,0 +1,1 @@
+cdf.logitnormal <- function(x,mu=0,sigma=1) {0.5* (1+erf((logit(x)-mu)/sqrt(2*sigma^2)))}

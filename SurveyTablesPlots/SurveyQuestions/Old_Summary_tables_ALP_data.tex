@@ -1,0 +1,399 @@
+
+\begin{table}[ht]
+\rowcolors{1}{blue!30}{blue!10}
+\footnotesize
+\centering
+\begin{tabular}{rlr}
+  \hline
+ & cutoff quantile & cutoff value \\ 
+  \hline
+perceivedauditrate & 80\% & 30.00 \\ 
+  perceivedaruprob.factor & 95\% & 16.72 \\ 
+  bombcrateramount.factor & 95\% & 16.67 \\ 
+  perceivedpenaltyrate & 95\% & 130.00 \\ 
+  perceivedtaxrate & 95\% & 50.00 \\ 
+  perceivedcaught & 80\% & 30.00 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:cut-offs} Cuttoff to get rid of far tails.}
+\end{table}
+
+
+
+%%%%% ALL
+\begin{table}[ht]
+\rowcolors{1}{blue!30}{blue!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrr}
+  \hline
+ & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's \\ 
+  \hline
+perceivedauditrate & 0.00 & 8.00 & 15.00 & 20.05 & 30.00 & 100.00 & 18.00 \\ 
+  perceivedpenaltyrate & 0.00 & 10.00 & 15.00 & 38.85 & 30.00 & 1500.00 & 26.00 \\ 
+  perceivedtaxrate & 0.00 & 15.00 & 25.00 & 23.95 & 30.00 & 100.00 & 29.00 \\ 
+  perceivedevasionratepopulation & 0.00 & 20.00 & 30.00 & 35.02 & 50.00 & 100.00 & 29.00 \\ 
+  perceivedevasionrate & 0.00 & 5.00 & 10.00 & 20.70 & 30.00 & 100.00 & 29.00 \\ 
+  perceivedevasionmanyevaders & 0.00 & 10.00 & 25.00 & 30.00 & 50.00 & 100.00 & 29.00 \\ 
+  perceivedevasionmanyevadersProp & 0.00 & 1.00 & 1.20 & 2.88 & 2.50 & 50.00 & 30.00 \\ 
+  perceivedcaught & 0.00 & 5.00 & 10.00 & 18.88 & 25.00 & 100.00 & 31.00 \\ 
+  perceivedcaughtProp & 0.00 & 0.40 & 0.75 & 117.50 & 1.50 & 100000.00 & 31.00 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:perceptions_summary_all} Summary for  all records.}
+\end{table}
+
+
+
+\begin{table}[ht]
+\rowcolors{1}{green!30}{green!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrr}
+  \hline
+ & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's \\ 
+  \hline
+perceivedauditrate & 0.00 & 10.00 & 15.00 & 21.15 & 30.00 & 100.00 & 439.00 \\ 
+  perceivedpenaltyrate & 0.20 & 10.00 & 20.00 & 45.63 & 30.00 & 1500.00 & 441.00 \\ 
+  perceivedtaxrate & 0.00 & 18.00 & 25.00 & 25.98 & 30.00 & 100.00 & 441.00 \\ 
+  perceivedevasionratepopulation & 0.00 & 20.00 & 30.00 & 35.42 & 50.00 & 100.00 & 440.00 \\ 
+  perceivedevasionrate & 0.00 & 3.00 & 10.00 & 20.06 & 30.00 & 100.00 & 440.00 \\ 
+  perceivedevasionmanyevaders & 0.00 & 10.00 & 25.00 & 30.67 & 50.00 & 100.00 & 440.00 \\ 
+  perceivedevasionmanyevadersProp & 0.00 & 1.00 & 1.33 & 3.14 & 2.50 & 50.00 & 440.00 \\ 
+  perceivedcaught & 0.00 & 5.00 & 10.00 & 20.28 & 25.00 & 100.00 & 441.00 \\ 
+  perceivedcaughtProp & 0.00 & 0.40 & 0.80 & 28.03 & 1.50 & 10000.00 & 440.00 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:perceptions_summary_selfemployed} Summary for  self-employed records.}
+\end{table}
+
+\begin{table}[ht]
+\rowcolors{1}{green!30}{green!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrr}
+  \hline
+ & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's \\ 
+  \hline
+perceivedauditrate & 0.00 & 5.00 & 10.00 & 13.60 & 20.00 & 80.00 & 438.00 \\ 
+  perceivedpenaltyrate & 0.00 & 10.00 & 11.50 & 24.95 & 25.00 & 500.00 & 438.00 \\ 
+  perceivedtaxrate & 0.00 & 15.00 & 22.00 & 22.83 & 30.00 & 100.00 & 438.00 \\ 
+  perceivedevasionratepopulation & 1.00 & 20.00 & 30.00 & 34.58 & 50.00 & 95.00 & 438.00 \\ 
+  perceivedevasionrate & 0.00 & 5.00 & 20.00 & 23.51 & 35.00 & 85.00 & 438.00 \\ 
+  perceivedevasionmanyevaders & 0.00 & 10.00 & 30.00 & 31.54 & 50.00 & 95.00 & 439.00 \\ 
+  perceivedevasionmanyevadersProp & 0.00 & 1.00 & 1.05 & 2.35 & 2.00 & 50.00 & 439.00 \\ 
+  perceivedcaught & 0.00 & 3.00 & 7.50 & 14.23 & 16.50 & 100.00 & 438.00 \\ 
+  perceivedcaughtProp & 0.00 & 0.40 & 0.83 & 14.65 & 1.78 & 2000.00 & 438.00 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:perceptions_summary_notselfemployed} Summary for  not self-employed records.}
+\end{table}
+
+
+\begin{table}[ht]
+\rowcolors{1}{purple!30}{purple!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrr}
+  \hline
+ & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's \\ 
+  \hline
+perceivedauditrate & 0.00 & 7.75 & 15.00 & 19.06 & 30.00 & 80.00 & 369.00 \\ 
+  perceivedpenaltyrate & 0.10 & 10.00 & 15.00 & 25.14 & 25.00 & 200.00 & 370.00 \\ 
+  perceivedtaxrate & 0.00 & 15.00 & 25.00 & 23.50 & 30.00 & 100.00 & 369.00 \\ 
+  perceivedevasionratepopulation & 0.00 & 20.00 & 30.00 & 35.37 & 50.00 & 100.00 & 369.00 \\ 
+  perceivedevasionrate & 0.00 & 5.00 & 10.00 & 19.22 & 25.00 & 100.00 & 369.00 \\ 
+  perceivedevasionmanyevaders & 0.00 & 10.00 & 25.00 & 29.90 & 50.00 & 95.00 & 369.00 \\ 
+  perceivedevasionmanyevadersProp & 0.00 & 1.00 & 1.25 & 2.73 & 2.50 & 50.00 & 369.00 \\ 
+  perceivedcaught & 0.00 & 5.00 & 10.00 & 18.41 & 20.00 & 100.00 & 370.00 \\ 
+  perceivedcaughtProp & 0.00 & 0.41 & 0.82 & 1.76 & 1.67 & 35.00 & 370.00 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:perceptions_summary_audited} Summary for  audited records.}
+\end{table}
+
+\begin{table}[ht]
+\rowcolors{1}{purple!30}{purple!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrr}
+  \hline
+ & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's \\ 
+  \hline
+perceivedauditrate & 0.00 & 5.00 & 10.00 & 17.62 & 25.00 & 100.00 & 370.00 \\ 
+  perceivedpenaltyrate & 0.00 & 10.00 & 15.00 & 35.46 & 25.00 & 1000.00 & 369.00 \\ 
+  perceivedtaxrate & 0.00 & 15.50 & 25.00 & 24.12 & 30.00 & 96.00 & 371.00 \\ 
+  perceivedevasionratepopulation & 0.00 & 20.00 & 30.00 & 34.56 & 50.00 & 100.00 & 370.00 \\ 
+  perceivedevasionrate & 0.00 & 5.00 & 10.00 & 19.69 & 30.00 & 100.00 & 369.00 \\ 
+  perceivedevasionmanyevaders & 0.00 & 10.00 & 25.00 & 28.69 & 50.00 & 100.00 & 370.00 \\ 
+  perceivedevasionmanyevadersProp & 0.00 & 1.00 & 1.25 & 3.05 & 2.50 & 50.00 & 370.00 \\ 
+  perceivedcaught & 0.00 & 5.00 & 10.00 & 16.21 & 20.00 & 100.00 & 369.00 \\ 
+  perceivedcaughtProp & 0.00 & 0.38 & 0.75 & 12.70 & 1.50 & 2000.00 & 370.00 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:perceptions_summary_notaudited} Summary for  not audited records.}
+\end{table}
+
+
+
+
+
+
+
+
+
+\begin{table}[ht]
+\rowcolors{1}{blue!30}{blue!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+ \parbox[c][0.05\textheight][c]{0.1\textwidth} { } & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+higher & 0.00 & 1.50 & 2.00 & 532.70 & 4.00 & 140000.00 & 1.00 & 498 & 0.49 \\ 
+  lower & 0.00 & 0.33 & 0.62 & 0.59 & 0.80 & 1.00 & 0.00 &  61 & 0.06 \\ 
+  same & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 0.00 & 454 & 0.45 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:ARUP1_all} First summary of question 9a and 9b for  all records.}
+\end{table}
+
+
+\begin{table}[ht]
+\rowcolors{1}{blue!30}{blue!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+\parbox[c][0.05\textheight][c]{0.1\textwidth} { other's reporting $X\%$ income} & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+30\% & 0.00 & 1.00 & 1.21 & 8.02 & 2.50 & 1600.00 & 5.00 & 349 & 0.34 \\ 
+  60\% & 0.00 & 1.00 & 1.00 & 357.30 & 2.25 & 120000.00 & 9.00 & 349 & 0.34 \\ 
+  90\% & 0.00 & 1.00 & 1.00 & 429.90 & 1.75 & 140000.00 & 4.00 & 332 & 0.32 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:ARUP2_all}  Second summary of question 9a and 9b for  all records.}
+\end{table}
+
+
+
+
+\begin{table}[ht]
+\rowcolors{1}{green!30}{green!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+ \parbox[c][0.05\textheight][c]{0.1\textwidth} { } & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+higher & 0.00 & 1.50 & 2.00 & 701.90 & 3.42 & 140000.00 & 0.00 & 204 & 0.51 \\ 
+  lower & 0.00 & 0.45 & 0.67 & 0.64 & 0.92 & 1.00 & 0.00 &  27 & 0.07 \\ 
+  same & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 0.00 & 168 & 0.42 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:ARUP1_se} First summary of question 9a and 9b for  self-employed records.}
+\end{table}
+
+
+\begin{table}[ht]
+\rowcolors{1}{green!30}{green!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+\parbox[c][0.05\textheight][c]{0.1\textwidth} { other's reporting $X\%$ income} & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+30\% & 0.20 & 1.00 & 1.04 & 16.35 & 2.33 & 1600.00 & 1.00 & 131 & 0.33 \\ 
+  60\% & 0.00 & 1.00 & 1.18 & 4.39 & 2.50 & 300.00 & 0.00 & 140 & 0.35 \\ 
+  90\% & 0.00 & 1.00 & 1.00 & 1090.00 & 1.54 & 140000.00 & 0.00 & 129 & 0.32 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:ARUP2_se}  Second summary of question 9a and 9b for  self-employed records.}
+\end{table}
+
+
+\begin{table}[ht]
+\rowcolors{1}{green!30}{green!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+ \parbox[c][0.05\textheight][c]{0.1\textwidth} { } & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+higher & 1.00 & 1.88 & 2.50 & 6.02 & 4.25 & 100.00 & 0.00 &  87 & 0.45 \\ 
+  lower & 0.00 & 0.31 & 0.56 & 0.50 & 0.68 & 0.90 & 0.00 &   8 & 0.04 \\ 
+  same & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 0.00 &  97 & 0.51 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:ARUP1_nse} First summary of question 9a and 9b for  not self-employed records.}
+\end{table}
+
+
+\begin{table}[ht]
+\rowcolors{1}{green!30}{green!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+\parbox[c][0.05\textheight][c]{0.1\textwidth} { other's reporting $X\%$ income} & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+30\% & 0.62 & 1.00 & 1.36 & 3.26 & 2.25 & 42.50 & 0.00 &  63 & 0.33 \\ 
+  60\% & 0.33 & 1.00 & 1.00 & 4.12 & 2.22 & 100.00 & 0.00 &  69 & 0.36 \\ 
+  90\% & 0.00 & 1.00 & 1.00 & 2.25 & 2.00 & 25.00 & 0.00 &  60 & 0.31 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:ARUP2_nse}  Second summary of question 9a and 9b for  not self-employed records.}
+\end{table}
+
+
+
+\begin{table}[ht]
+\rowcolors{1}{purple!30}{purple!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+ \parbox[c][0.05\textheight][c]{0.1\textwidth} { } & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+higher & 1.00 & 1.50 & 2.00 & 18.19 & 3.66 & 1600.00 & 0.00 & 111 & 0.53 \\ 
+  lower & 0.20 & 0.35 & 0.58 & 0.59 & 0.82 & 1.00 & 0.00 &   6 & 0.03 \\ 
+  same & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 0.00 &  91 & 0.44 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:ARUP1_audited} First summary of question 9a and 9b for  audited records.}
+\end{table}
+
+
+\begin{table}[ht]
+\rowcolors{1}{purple!30}{purple!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+\parbox[c][0.05\textheight][c]{0.1\textwidth} { other's reporting $X\%$ income} & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+30\% & 0.20 & 1.00 & 1.25 & 23.51 & 2.00 & 1600.00 & 0.00 &  77 & 0.37 \\ 
+  60\% & 0.67 & 1.00 & 1.25 & 2.39 & 2.81 & 12.00 & 0.00 &  63 & 0.30 \\ 
+  90\% & 0.30 & 1.00 & 1.00 & 2.24 & 2.00 & 25.00 & 0.00 &  68 & 0.33 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:ARUP2_audited}  Second summary of question 9a and 9b for  audited records.}
+\end{table}
+
+
+\begin{table}[ht]
+\rowcolors{1}{purple!30}{purple!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+ \parbox[c][0.05\textheight][c]{0.1\textwidth} { } & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+higher & 0.00 & 1.67 & 2.50 & 589.00 & 4.25 & 120000.00 & 1.00 & 208 & 0.46 \\ 
+  lower & 0.00 & 0.41 & 0.67 & 0.58 & 0.73 & 1.00 & 0.00 &  22 & 0.05 \\ 
+  same & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 0.00 & 223 & 0.49 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:ARUP1_notaudited} First summary of question 9a and 9b for  not audited records.}
+\end{table}
+
+
+\begin{table}[ht]
+\rowcolors{1}{purple!30}{purple!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+\parbox[c][0.05\textheight][c]{0.1\textwidth} { other's reporting $X\%$ income} & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+30\% & 0.50 & 1.00 & 1.25 & 4.93 & 3.00 & 150.00 & 0.00 & 145 & 0.32 \\ 
+  60\% & 0.00 & 1.00 & 1.00 & 826.90 & 2.00 & 120000.00 & 1.00 & 147 & 0.32 \\ 
+  90\% & 0.00 & 1.00 & 1.00 & 4.39 & 1.81 & 400.00 & 0.00 & 161 & 0.36 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:ARUP2_notaudited}  Second summary of question 9a and 9b for  not audited records.}
+\end{table}
+
+
+
+
+\begin{table}[ht]
+\rowcolors{1}{blue!30}{blue!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+ & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+higher & 0.00 & 1.50 & 2.20 & 381.10 & 4.80 & 120000.00 & 0.00 & 335 & 0.33 \\ 
+  lower & 0.00 & 0.28 & 0.50 & 0.47 & 0.67 & 1.00 & 1.00 & 241 & 0.24 \\ 
+  same & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 0.00 & 432 & 0.43 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:BC_all}  Summary of question 10a and 10b for  all records.}
+\end{table}
+
+\begin{table}[ht]
+\rowcolors{1}{green!30}{green!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+ & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+higher & 0.51 & 1.50 & 2.00 & 832.40 & 4.00 & 120000.00 & 0.00 & 145 & 0.36 \\ 
+  lower & 0.00 & 0.33 & 0.50 & 0.47 & 0.64 & 1.00 & 0.00 &  87 & 0.22 \\ 
+  same & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 0.00 & 166 & 0.42 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:BC_se}  Summary of question 10a and 10b for  self-employed records.}
+\end{table}
+
+\begin{table}[ht]
+\rowcolors{1}{green!30}{green!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+ & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+higher & 0.33 & 1.67 & 3.17 & 102.60 & 6.25 & 6000.00 & 0.00 &  62 & 0.32 \\ 
+  lower & 0.00 & 0.20 & 0.50 & 0.41 & 0.60 & 1.00 & 0.00 &  47 & 0.24 \\ 
+  same & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 0.00 &  83 & 0.43 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:BC_nse}  Summary of question 10a and 10b for  not self-employed records.}
+\end{table}
+
+
+\begin{table}[ht]
+\rowcolors{1}{purple!30}{purple!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+ & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+higher & 1.00 & 1.67 & 2.23 & 5.64 & 5.00 & 60.00 & 0.00 &  64 & 0.31 \\ 
+  lower & 0.00 & 0.33 & 0.50 & 0.50 & 0.75 & 1.00 & 1.00 &  50 & 0.24 \\ 
+  same & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 0.00 &  94 & 0.45 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:BC_audited}  Summary of question 10a and 10b for  audited records.}
+\end{table}
+
+\begin{table}[ht]
+\rowcolors{1}{purple!30}{purple!10}
+\footnotesize
+\centering
+\begin{tabular}{rrrrrrrrrr}
+  \hline
+ & Min. & 1st Qu. & Median & Mean & 3rd Qu. & Max. & NA's & N & N.prop \\ 
+  \hline
+higher & 0.00 & 1.65 & 2.50 & 41.79 & 5.00 & 6000.00 & 0.00 & 168 & 0.37 \\ 
+  lower & 0.00 & 0.20 & 0.50 & 0.42 & 0.60 & 1.00 & 0.00 &  99 & 0.22 \\ 
+  same & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 0.00 & 185 & 0.41 \\ 
+   \hline
+\end{tabular}
+\caption{\label{tab:BC_not_audited}  Summary of question 10a and 10b for  not audited records.}
+\end{table}

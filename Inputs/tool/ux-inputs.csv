@@ -1,0 +1,28 @@
+Input Name,Full Name,lower bound,upper bound,group,include,Description
+audit.rate.delta,Change in Audit Rate,-0.05,0.05,Policy Levers,TRUE,Change in audit rate to be applied uniformly to all brackets
+detection.eff,Detection Efficiency,0.7,0.9,Policy Levers,TRUE,Efficiency of actually detecting tax evasion given an agent has been audited
+K,Audit History (in years),2,5,Time Scale,FALSE,No. of years of audit memory
+penalty.rate,Penalty Rate,0.25,0.8,Policy Levers,TRUE,Percentage of penalty to be imposed for evading taxes
+tax.rate.delta,Change in Tax Rate,-0.05,0.05,Policy Levers,TRUE,Change in tax rate to be applied uniformly to all brackets
+bomb.crater.factor,Bomb Crater Factor,0.01,2.2,Behavioral Influences,TRUE,"Agents' tendency to think lightning does not strike twice (or ""I cannot be audited again, so let me evade"")"
+gamblers.fallacy.grad,Gambler's Fallacy Factor,0,0.182912191,Behavioral Influences,TRUE,"Agents' tendecny to think I can't keep winning the gamble, I may get caught soon"
+gamblers.fallacy.intercept,Gambler's Fallacy Factor,0,0.980282854,Behavioral Influences,FALSE,"Agents' tendecny to think I can't keep winning the gamble, I may get caught soon"
+m.qP,Deterrence Response,0.025323659,0.116060651,Behavioral Influences,TRUE,Deterrence Response (m.qP)
+s.qP,Deterrence Response,0.588181117,0.959366236,Behavioral Influences,FALSE,Deterrence Response (s.qP)
+v.PP,Evasion Relapse,0.5,1,Behavioral Influences,FALSE,Deterrence Response (v.PP)
+beta.media,Media Effect,0,0.5,Behavioral Influences,FALSE,Media Effect
+media.mid.effect,Media Effect,0.29735472,0.471903593,Behavioral Influences,TRUE,Media Effect
+media.steepness,Media Effect,1.791554633,2.69452472,Behavioral Influences,FALSE,Media Effect
+tax.gap.reporting.media.threshold,Gap.Reporting.Media Gapxrtporting .anfluenxtt,0.1,0.15,Behavioral Influences,FALSE,Media Reporting Threshold for tax gap. 
+beta.personal,Ego's Influence on Alters,0,1,Weights,TRUE,Individual's effect on peers' tax behavior
+c1.dist.weight,c1 Weight Distribution,0,1,Weights,TRUE,Weight of c1 Distribution
+c2,c2,0.65,0.9,Weights,TRUE,c2
+rate.refund.movement,Refund Return Factor,0.05,0.2,Time Scale,TRUE,How often does one receive refunds?
+return.weight,Weight on Returns,0,0.1,Weights,TRUE,Effect of tax returns on agents' tax behavior
+ave.degree.tTaxes,Avg. Degree of Network,2,4,Weights,FALSE,Average Degree of a network with whom agents are comfortable talking about taxes
+beta.network,Alters' Influence on Ego,0,0.5,Weights,FALSE,Effect of peers on an individual's tax behavior
+full.tendency.factor,Full Tendency Factor,1,2,Weights,FALSE,NO LONGER USED
+generation.half.life,Generation Half-Life,10,35,Time Scale,TRUE,Half life of a generation of agents
+morale.half.life,Morale Half-Life,1,8,Time Scale,TRUE,Half life of tax morale of agents
+t.media.range,Media Range,10,35,Weights,FALSE,How long does media effect linger on in time?
+total.years,Run the Model for 't' Years,5,150,Time Scale,FALSE,How long should the model run for?

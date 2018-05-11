@@ -1,0 +1,46 @@
+\begin{table}[!h]
+\rowcolors{1}{blue!30}{blue!10}
+%\scriptsize
+\footnotesize
+\adjustbox{max height=\dimexpr\textheight-1cm\relax,max width=2\textwidth}
+{
+\setlength{\extrarowheight}{5pt}
+ \begin{tabular}{|c|c|c|c|}\hline
+\bf{Qu.\#}& \bf{Question ID}  & \bf{Question Text} &\parbox[c][0.05\textheight][c]{0.15\textwidth}{\bf{Notes}}\\ \hline \hline 
+
+1 &alters &  \parbox[c][0.04\textheight][c]{0.5\textwidth} { \scriptsize Please list the initials of 10 adults that you know, other than spouses or domestic partners, and interact with on a regular basis. 
+ }
+&\parbox[c][0.04\textheight][c]{0.18\textwidth}{\scriptsize %Network degree
+}\\  \hline
+
+2 & alterrel  &   \parbox[c][0.05\textheight][c]{0.5\textwidth} { \scriptsize For each of the people listed below, please indicate your primary relationship with that person. a. Family memberb. Friendc. Coworkerd. Other.
+ }
+&\parbox[c][0.05\textheight][c]{0.18\textwidth}{\scriptsize Type of contact}\\  \hline
+
+3  &  altereduc  & \parbox[c][0.12\textheight][c]{0.5\textwidth} { \scriptsize For each of the people listed below, please indicate, to the best of your knowledge, what is the highest education degree that person has received? a. Less than a high school diploma or the equivalent (For example: GED)b. High school diploma or the equivalent (For example: GED)c. Associate degree in colleged. Bachelor's degree (For example: BA,AB,BS) 
+e. Graduate degree, such as Master's or Doctoral-level degree}
+&\parbox[c][0.05\textheight][c]{0.18\textwidth}{\scriptsize %Infer network ties between income brackets from education-level ties.
+}\\  \hline
+
+
+4 &  altertalktax & \parbox[c][0.1\textheight][c]{0.5\textwidth} {  \scriptsize
+ For each of the people listed below, please check the box next to any person with whom you have talked or consulted with about taxes in the past 5 years. This could include any aspect of taxes, including state or federal taxes, tax audits or penalties, how fair taxes seem, or any other related topic. a. Yesb. Noc. Don't knowd. I would prefer not to say}
+&\parbox[c][0.05\textheight][c]{0.18\textwidth}{\scriptsize %Infer the subset network of tax relevant contacts.
+ }\\  \hline
+
+5 & taxhowoften &   \parbox[c][0.06\textheight][c]{0.5\textwidth} {  \scriptsize
+For these people, how often do you talk to them about taxes? a. Once every five yearsb. Once every two yearsc. Once a yeard. Twice a yeare. Monthlyf. More frequentlyg. I don't know or don't remember}
+&\parbox[c][0.07\textheight][c]{0.18\textwidth}{\scriptsize %$\rho_N$: Frequency of active contacts in the network per year.
+ }\\  \hline
+
+6& taxselfemployed &   \parbox[c][0.05\textheight][c]{0.5\textwidth} { \scriptsize 
+For each of the people below, do you think they are self-employed or have rental income? a. Yesb. Noc. I don't know or don't remember}
+&\parbox[c][0.05\textheight][c]{0.18\textwidth}{ \scriptsize Alter's level of opportunity to under-report.}\\  \hline
+
+7& taxaudit &  \parbox[c][0.10\textheight][c]{0.5\textwidth} {  \scriptsize
+For each of the people below, do you know or think that they have been audited by the IRS in the past five years? a. Yes, I know they have been auditedb. Yes, I think they have been auditedc. I don't know or don't rememberd. No, I don't think they have been auditede. No, I know they have not been audited.}
+&\parbox[c][0.12\textheight][c]{ 0.18\textwidth}{ \scriptsize %$\tilde{q}^{(i)}_t$ \& $\tilde{P}^{(i)}_t$: Estimate the influence of alters being audited on perceived audit rate and penalty rate.  \\ Also \\ Estimate Audit strategy.
+}\\  \hline
+\end{tabular}
+}
+\end{table}

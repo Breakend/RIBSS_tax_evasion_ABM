@@ -1,0 +1,13 @@
+tax rate,min,max,filing.status
+0.12,0,75000,Married.Filing.Jointly
+0.25,75000,225000,Married.Filing.Jointly
+0.33,225000,1000000000,Married.Filing.Jointly
+0.12,0,37500,Married.Filing.Separately
+0.25,37500,112500,Married.Filing.Separately
+0.33,112500,1000000000,Married.Filing.Separately
+0.12,0,37500,Single
+0.25,37500,112500,Single
+0.33,112500,1000000000,Single
+0.12,0,37500,Head.of.Household
+0.25,37500,112500,Head.of.Household
+0.33,112500,1000000000,Head.of.Household

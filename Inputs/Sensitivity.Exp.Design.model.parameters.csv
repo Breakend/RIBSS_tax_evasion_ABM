@@ -1,0 +1,30 @@
+,Mode,Lower,Upper,pdf,integer,Derived.from,inv.direction,type
+audit.rate,0.01,0.005,0.015,PERT,FALSE,NA,NA,Controls
+detection.eff,0.8,0.7,0.9,Uni,FALSE,NA,NA,Controls
+K,3,2,5,Uni,TRUE,NA,NA,Controls
+penalty.rate,0.5,0.25,0.8,PERT,FALSE,NA,NA,Controls
+tax.rate.delta,0,-0.08,0.08,Uni,FALSE,NA,NA,Controls
+bomb.crater.factor,0.58,0.01,2.2,PERT,FALSE,NA,NA,Deterrence Response
+gamblers.fallacy.grad,0.079659594,0,0.182912191,PERT,FALSE,NA,NA,Deterrence Response
+gamblers.fallacy.intercept,0.158757795,0,0.980282854,Derived,FALSE,gamblers.fallacy.grad,FALSE,Deterrence Response
+m.qP,0.057578148,0.025323659,0.116060651,PERT,FALSE,NA,NA,Deterrence Response
+penalty.asymmetry.factor,1,NA,NA,Point,FALSE,NA,NA,Deterrence Response
+s.qP,0.738985182,0.588181117,0.959366236,Derived,FALSE,m.qP,FALSE,Deterrence Response
+v.PP,0.9,0.5,1,PERT,FALSE,NA,NA,Evasion Relapse
+beta.media,0.225,0,0.5,Derived,FALSE,beta.personal,TRUE,Media
+media.mid.effect,0.384629157,0.29735472,0.471903593,Uni,FALSE,NA,NA,Media
+media.steepness,2.243039676,1.791554633,2.69452472,Derived,FALSE,media.mid.effect,FALSE,Media
+media.stochastic.offset,0,NA,NA,Point,FALSE,NA,NA,Media
+tax.gap.reporting.media.threshold,0.1,0.1,0.15,Uni,FALSE,NA,NA,Media
+beta.personal,0.55,0,1,PERT,FALSE,NA,NA,Personal
+c1.dist.weight,0,0,1,Uni,FALSE,NA,NA,Personal
+c2,0.7,0.65,0.9,PERT,FALSE,NA,NA,Personal
+rate.refund.movement,0.1,0.05,0.2,PERT,FALSE,NA,NA,Refund
+return.weight,0.08,0,0.1,PERT,FALSE,NA,NA,Refund
+ave.degree.tTaxes,2.626637555,2,4,PERT,FALSE,NA,NA,Social
+beta.network,0.225,0,0.5,Derived,FALSE,beta.personal,TRUE,Social
+full.tendency.factor,1.6,1,2,PERT,FALSE,NA,NA,Time Scales
+generation.half.life,25,10,35,Derived,TRUE,morale.half.life,FALSE,Time Scales
+morale.half.life,2,1,8,PERT,TRUE,NA,NA,Time Scales
+t.media.range,25,10,35,Derived,FALSE,morale.half.life,FALSE,Time Scales
+coeff.dispersion.audits,0.0877,NA,NA,Point,FALSE,NA,NA,Other

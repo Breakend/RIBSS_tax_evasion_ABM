@@ -1,0 +1,103 @@
+field.name,full.names
+tax.gap.percent,Tax Gap
+tax.gap.gradient,YoY Change in Tax Gap
+tax.gap.r.sqrd,Tax Gap YoY R-Squared
+prop.income.reported.q.5.,Proportion of Zero A.I. Reporters
+prop.income.reported.q.10.,Proportion of 10% A.I. Reporters
+prop.income.reported.q.20.,Proportion of 20% A.I. Reporters
+prop.income.reported.q.30.,Proportion of 30% A.I. Reporters
+prop.income.reported.q.40.,Proportion of 40% A.I. Reporters
+prop.income.reported.q.50.,Proportion of 50% A.I. Reporters
+prop.income.reported.q.60.,Proportion of 60% A.I. Reporters
+prop.income.reported.q.70.,Proportion of 70% A.I. Reporters
+prop.income.reported.q.80.,Proportion of 80% A.I. Reporters
+prop.income.reported.q.90.,Proportion of 90% A.I. Reporters
+prop.income.reported.q.95.,Proportion of 95% A.I. Reporters
+prop.income.reported.q.100.,Proportion of Full A.I. Reporters
+mean.prop.income.reported,Mean Proportion of A.I. Reported
+perc.hideable.income.reported.q.5.,Proportion of Zero H.I. Reporters
+perc.hideable.income.reported.q.10.,Proportion of 10% H.I. Reporters
+perc.hideable.income.reported.q.20.,Proportion of 20% H.I. Reporters
+perc.hideable.income.reported.q.30.,Proportion of 30% H.I. Reporters
+perc.hideable.income.reported.q.40.,Proportion of 40% H.I. Reporters
+perc.hideable.income.reported.q.50.,Proportion of 50% H.I. Reporters
+perc.hideable.income.reported.q.60.,Proportion of 60% H.I. Reporters
+perc.hideable.income.reported.q.70.,Proportion of 70% H.I. Reporters
+perc.hideable.income.reported.q.80.,Proportion of 80% H.I. Reporters
+perc.hideable.income.reported.q.90.,Proportion of 90% H.I. Reporters
+perc.hideable.income.reported.q.95.,Proportion of 95% H.I. Reporters
+perc.hideable.income.reported.q.100.,Proportion of Full H.I. Reporters
+mean.perc.hideable.income.reported,Mean Proportion of H.I. Reported
+per.audit.rate.q.5.,Perceived Audit Rate 5% Quantile
+per.audit.rate.q.10.,Perceived Audit Rate 10% Quantile
+per.audit.rate.q.20.,Perceived Audit Rate 20% Quantile
+per.audit.rate.q.30.,Perceived Audit Rate 30% Quantile
+per.audit.rate.q.40.,Perceived Audit Rate 40% Quantile
+per.audit.rate.q.50.,Perceived Audit Rate 50% Quantile
+per.audit.rate.q.60.,Perceived Audit Rate 60% Quantile
+per.audit.rate.q.70.,Perceived Audit Rate 70% Quantile
+per.audit.rate.q.80.,Perceived Audit Rate 80% Quantile
+per.audit.rate.q.90.,Perceived Audit Rate 90% Quantile
+per.audit.rate.q.95.,Perceived Audit Rate 95% Quantile
+per.audit.rate.q.Inf.,Perceived Audit Rate >100% Quantile
+mean.per.audit.rate,Mean Perceived Audit Rate
+per.penalty.rate.q.5.,Perceived Penalty Rate 5% Quantile
+per.penalty.rate.q.10.,Perceived Penalty Rate 10% Quantile
+per.penalty.rate.q.20.,Perceived Penalty Rate 20% Quantile
+per.penalty.rate.q.30.,Perceived Penalty Rate 30% Quantile
+per.penalty.rate.q.40.,Perceived Penalty Rate 40% Quantile
+per.penalty.rate.q.50.,Perceived Penalty Rate 50% Quantile
+per.penalty.rate.q.60.,Perceived Penalty Rate 60% Quantile
+per.penalty.rate.q.70.,Perceived Penalty Rate 70% Quantile
+per.penalty.rate.q.80.,Perceived Penalty Rate 80% Quantile
+per.penalty.rate.q.90.,Perceived Penalty Rate 90% Quantile
+per.penalty.rate.q.95.,Perceived Penalty Rate 95% Quantile
+per.penalty.rate.q.Inf.,Perceived Penalty Rate >100% Quantile
+mean.per.penalty.rate,Mean Perceived Penalty Rate
+sd.prop.income.reported,Std. Dev. of A.I. Reported
+sd.perc.hideable.income.reported,Std. Dev. of H.I. Reproted
+sd.per.audit.rate,Std. Dev. of Perceived Audit Rate
+sd.per.penalty.rate,Std. Dev. of Perceived Penalty Rate
+netw.effect.report.gradient,Network Effect on A.I. Reporting
+netw.effect.report.r.sqrd,R-Squared Network Effect on A.I. Reporting
+netw.effect.hideable.reported.gradient,Network Effect on H.I. Reporting
+netw.effect.hideable.reported.r.sqrd,R-Squared Network Effect on H.I. Reporting
+netw.effect.per.audit.rate.gradient,Network Effect on Perceived Audit Rate
+netw.effect.per.audit.rate.r.sqrd,R-Squared Network Effect on Perceived Audit Rate
+netw.effect.compliance.gradient,Network Effect on Compliance
+netw.effect.compliance.r.sqrd,R-Squared Network Effect on Compliance
+persistently.compliant,Persistent Compliance (last 40 yrs)
+persistently.non.compliant,Persistent Non-Compliance (last 40 yrs)
+total.persistence,Total Persistence in H.I. Reporting
+R0,R0
+R1,R1
+R3,R3
+Rannoyed,Rannoyed
+hideable.R0,R0 (Hideable)
+hideable.R1,R1 (Hideable)
+hideable.R3,R3 (Hideable)
+hideable.Rannoyed,Rannoyed (Hideable)
+mean.perc.report.by.comp.aud.3.yrs.ago,Mean Percent of A.I. Reported by Compliant in Past 3 Years
+mean.hideable.report.by.comp.aud.3.yrs.ago,Mean Percent of H.I. Reported by Compliant in Past 3 Years
+equilibrium.reached,Time to Reach Equilibrium
+comp.rate.rmse,Distr. Divergence of H.I. under-reporting
+tax.rate.delta,Change in Tax Rate
+audit.rate,Audit Rate
+detection.eff,Detection Efficiency
+K,Years of Audit Memory (K)
+penalty.rate,Penalty Rate
+bomb.crater.factor,Bomb Crater Factor
+gamblers.fallacy.grad,Gamblers Fallacy Grad
+m.qP,Deterrence Response (m.qP)
+v.PP,Deterrence Response (v.PP)
+media.mid.effect,Media Mid Effect
+tax.gap.reporting.media.threshold,Media Threshold to Reporting Tax Gap
+beta.personal,Beta Personal
+c1.dist.weight,c1 Distr. Weight
+c2,c2
+rate.refund.movement,Rate Refund Movement
+return.weight,Return Weight
+ave.degree.tTaxes,Average Degree of Tax Network
+full.tendency.factor,Full Tendency Factor
+morale.half.life,Morale Half Life
+other.inputs.combined,All Other Inputs Combined

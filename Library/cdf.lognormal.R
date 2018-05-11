@@ -1,0 +1,1 @@
+cdf.lognormal <- function(x,mu=0,sigma=1) {0.5* (1+erf((log(x)-mu)/(sqrt(2)*sigma)))}
